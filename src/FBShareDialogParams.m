@@ -39,6 +39,8 @@ static NSString *const kFBHttpsScheme = @"https";
 static NSString *const kFBShareDialogBetaVersion = @"20130214";
 static NSString *const kFBShareDialogProdVersion = @"20130410";
 
+@synthesize description = _description;
+
 - (void)dealloc
 {
     [_link release];
